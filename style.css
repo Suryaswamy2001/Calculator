@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:burlywood;
+    
+}
+.container{ 
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    padding:30px;
+    background-color: black;
+}
+button{
+    width:60px;
+    height:60px;
+    margin: 10px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    transition:.4s;
+    font-size:30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button:hover{
+    background-color: blue;
+    color:white;
+}
+input[type="text"]{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    transition:.4s;
+    width:310px;
+    text-align: right;
+    padding:20px;
+    font-size:30px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:10px;
+}
+.btn{
+    color:green;
+    transition: .4s;
+}
+.btn:hover{
+    background-color: green;
+    color:white
+}
+.eql-btn{
+    background-color: orange;
+    color:white;
+    transition: .4s;
+}
+.eql-btn:hover{
+    background-color: red;
+    color:white
+}
